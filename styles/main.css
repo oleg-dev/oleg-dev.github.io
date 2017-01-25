@@ -32,7 +32,6 @@ header .mavro-logo {
     font: bold 0.82em PTSans;
     font-style: bold;
     text-shadow: 0 0 8px #093a93;
-    position: fixed;
 }
 .top-nav ul {
     padding-top: 18px;
@@ -52,6 +51,7 @@ header .mavro-logo {
 }
 .top-nav.nav-2 {
     display:none;
+    position: fixed;
 }
 .sign-in-wrap {
     width: 291px;
