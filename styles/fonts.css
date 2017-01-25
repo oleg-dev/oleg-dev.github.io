@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("../media/fonts/PTS75F.eot#");
+    src: local("PTSans"),
+    url("../media/fonts/PTSans-Bold.woff") format("woff"),
+    url("../media/fonts/PTS75F.ttf") format("truetype");
+    font-weight:bold;
+}
+@font-face {
+    font-family: "AkzidenzGroteskPro-LightCn";
+    src: url("../media/fonts/AkzidenzGroteskPro-LightCn.eot#");
+    src: local("AkzidenzGroteskPro-LightCn"),
+    url("../media/fonts/AkzidenzGroteskPro-LightCn.woff") format("woff"),
+    url("../media/fonts/AkzidenzGroteskPro-LightCn.ttf") format("truetype");
+    font-weight:400;
+}
+@font-face {
+    font-family: "AkzidenzGroteskPro-Cn";
+    src: url("../media/fonts/AkzidenzGroteskPro-Cn.eot#");
+    src: local("AkzidenzGroteskPro-Cn"),
+    url("../media/fonts/AkzidenzGroteskPro-Cn.woff") format("woff"),
+    url("../media/fonts/AkzidenzGroteskPro-Cn.ttf") format("truetype");
+    font-weight:400;
+}
+@font-face {
+    font-family: "PTSans-Regular";
+    src: url("../media/fonts/PTS55F.eot#");
+    src: local("PTSans-Regular"),
+    url("../media/fonts/PTSans-Regular.woff") format("woff"),
+    url("../media/fonts/PTS55F.ttf") format("truetype");
+    font-weight:400;
+}
