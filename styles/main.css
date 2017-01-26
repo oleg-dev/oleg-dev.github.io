@@ -71,9 +71,6 @@ header .mavro-logo {
     right: 15px;
     z-index: 10;
 }
-#mobile-menu{
-    cursor: pointer;
-}
 .try-mavro {
     width: 193px;
     border: 1px solid rgba(255, 255, 255, 0.23);
@@ -858,17 +855,17 @@ footer {
     .top-nav {
         display:none;
     }
-    .menu-sandwich:hover + .top-nav.nav-2 {
+    .top-nav.nav-2 {
         display: block;
         position: fixed;
         top: 10px;
         width: 100%;
         background: rgba(18, 57, 152, 0.8);
     }
-    .menu-sandwich:hover + .top-nav.nav-2 ul {
+    .top-nav.nav-2 ul {
         margin-left: 0;
     }
-    .menu-sandwich:hover + .top-nav.nav-2 ul li {
+    .top-nav.nav-2 ul li {
         display: block;
         width: 50%;
         margin: 0 auto;
@@ -877,7 +874,7 @@ footer {
         text-align: center;
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     }
-    .menu-sandwich:hover + .top-nav.nav-2 > ul > li:last-of-type {
+    .top-nav.nav-2 > ul > li:last-of-type {
         display: block;
         margin: 0 auto;
     }

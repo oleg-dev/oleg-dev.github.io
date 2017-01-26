@@ -44,23 +44,25 @@
 
     <button class="menu-sandwich" id="mobile-menu"></button>
 
-    <nav class="top-nav nav-2">
-        <ul id="sandwich-menu">
-            <li>
-                <a href="#section-1">Новости</a>
-            </li>
-            <li>
-                <a href="#section-2">Как работает</a>
-            </li>
-            <li>
-                <a href="#section-3">Калькулятор</a>
-            </li>
-            <li>
-                <a href="#section-4">Команда</a>
-            </li>
-        </ul>
-    </nav>
 </header>
+
+<nav class="top-nav nav-2">
+    <ul id="sandwich-menu">
+        <li>
+            <a href="#section-1">Новости</a>
+        </li>
+        <li>
+            <a href="#section-2">Как работает</a>
+        </li>
+        <li>
+            <a href="#section-3">Калькулятор</a>
+        </li>
+        <li>
+            <a href="#section-4">Команда</a>
+        </li>
+    </ul>
+</nav>
+
 
 <section class="block-news" id="section-1">
     <div class="news-content-wrap">
@@ -276,16 +278,9 @@
         /*===for mobile====*/
         $( "#mobile-menu" ).bind( "tap", tapMenu );
  
-        function tapMenu(event){
+        function tapMenu( event ){
              $('.nav-2').slideToggle("normal"); return false;
-        };
-
-        $('#mobile-menu').bind( "touchstart", function(e){
-           $('.nav-2').slideToggle("normal"); return false;
-        });
-        $("#mobile-menu").live("touchstart", function(e){
-            $('.nav-2').slideToggle("normal"); return false;
-        });
+        }
     });
 </script>
 
