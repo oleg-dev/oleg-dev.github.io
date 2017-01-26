@@ -276,9 +276,16 @@
         /*===for mobile====*/
         $( "#mobile-menu" ).bind( "tap", tapMenu );
  
-        function tapMenu( event ){
+        function tapMenu(event){
              $('.nav-2').slideToggle("normal"); return false;
-        }
+        };
+
+        $('#mobile-menu').bind( "touchstart", function(e){
+           $('.nav-2').slideToggle("normal"); return false;
+        });
+        $("#mobile-menu").live("touchstart", function(e){
+            $('.nav-2').slideToggle("normal"); return false;
+        });
     });
 </script>
 
