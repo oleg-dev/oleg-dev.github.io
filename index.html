@@ -271,7 +271,14 @@
 <script type="text/javascript">
     jQuery(document).ready(function($){
         $('.nav-2').hide();
-        $('#mobile-menu').click(function(){$(this).next().toggle()});
+        $('#mobile-menu').click(function(){$('.nav-2').slideToggle("normal"); return false;});
+
+        /*===for mobile====*/
+        $( "#mobile-menu" ).bind( "tap", tapMenu );
+ 
+        function tapMenu( event ){
+             $('.nav-2').slideToggle("normal"); return false;
+        }
     });
 </script>
 
