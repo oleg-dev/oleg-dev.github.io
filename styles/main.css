@@ -16,7 +16,7 @@ header {
     padding-top: 55px;
     position: absolute;
     color: #fff;
-    z-index: 5;
+    z-index: 0;
 }
 .mavro-logo {
     width: 178px;
@@ -29,7 +29,7 @@ header .mavro-logo {
 }
 .top-nav {
     text-transform: uppercase;
-    font: bold 0.82em PTSans;
+    font: bold 0.75em PTSans;
     font-style: bold;
     text-shadow: 0 0 8px #093a93;
 }
@@ -52,6 +52,7 @@ header .mavro-logo {
 .top-nav.nav-2 {
     display:none;
     position: fixed;
+    z-index: 1;
 }
 .sign-in-wrap {
     width: 291px;
@@ -842,6 +843,7 @@ footer {
     }
     .invest-wrap {
         height: auto;
+        padding-bottom: 15px;
     }
     .invest:nth-of-type(2) {
         width: 260px;
@@ -860,7 +862,7 @@ footer {
         position: fixed;
         top: 10px;
         width: 100%;
-        background: rgba(18, 57, 152, 0.8);
+        background: rgba(18, 57, 152, 0.95);
     }
     .top-nav.nav-2 ul {
         margin-left: 0;
@@ -982,6 +984,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        padding-top: 10px;
     }
     .mavro-logo {
         margin-top: 10px;
