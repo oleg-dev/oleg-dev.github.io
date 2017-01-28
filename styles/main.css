@@ -14,9 +14,11 @@ header {
     justify-content: space-between;
     vertical-align: bottom;
     padding-top: 55px;
-    position: absolute;
+    /*position: absolute;*/
     color: #fff;
-    z-index: 0;
+    /*z-index: 0;*/
+    z-index: 1;
+    position: fixed;
 }
 .mavro-logo {
     width: 178px;
@@ -766,6 +768,26 @@ footer {
     }
 }
 @media screen and (max-width: 900px) {
+    header {
+        position: absolute;
+        z-index: 0;
+    }
+    .top-nav.nav-2 {
+        display: block;
+        position: fixed;
+        top: 10px;
+        width: 100%;
+        background: rgba(18, 57, 152, 0.95);
+    }
+    .top-nav.nav-2 ul li {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 170%;
+        height: 40px;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
     .top-nav > ul > li {
         margin-right: 20px;
     }
