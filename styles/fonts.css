@@ -1,32 +1,49 @@
-@font-face {
-    font-family: "PTSans";
-    src: url("../media/fonts/PTS75F.eot#");
-    src: local("PTSans"),
-    url("../media/fonts/PTSans-Bold.woff") format("woff"),
-    url("../media/fonts/PTS75F.ttf") format("truetype");
-    font-weight:bold;
+	/*Example*/
+
+/*@font-face {
+	font-family: "RobotoLight";
+	src: url("..media/fonts/roboto-light.woff");
 }
+
 @font-face {
-    font-family: "AkzidenzGroteskPro-LightCn";
-    src: url("../media/fonts/AkzidenzGroteskPro-LightCn.eot#");
-    src: local("AkzidenzGroteskPro-LightCn"),
-    url("../media/fonts/AkzidenzGroteskPro-LightCn.woff") format("woff"),
-    url("../media/fonts/AkzidenzGroteskPro-LightCn.ttf") format("truetype");
-    font-weight:400;
+	font-family: "RobotoBold";
+	src: url("..media/fonts/roboto-bold.woff");
 }
+
 @font-face {
-    font-family: "AkzidenzGroteskPro-Cn";
-    src: url("../media/fonts/AkzidenzGroteskPro-Cn.eot#");
-    src: local("AkzidenzGroteskPro-Cn"),
-    url("../media/fonts/AkzidenzGroteskPro-Cn.woff") format("woff"),
-    url("../media/fonts/AkzidenzGroteskPro-Cn.ttf") format("truetype");
-    font-weight:400;
+	font-family: "RobotoBlack";
+	src: url("..media/fonts/roboto-black.woff");
 }
+
 @font-face {
-    font-family: "PTSans-Regular";
-    src: url("../media/fonts/PTS55F.eot#");
-    src: local("PTSans-Regular"),
-    url("../media/fonts/PTSans-Regular.woff") format("woff"),
-    url("../media/fonts/PTS55F.ttf") format("truetype");
-    font-weight:400;
+	font-family: "RobotoMedium";
+	src: url("..media/fonts/roboto-medium.woff");
 }
+*/
+
+
+
+    /*Example for IE10+*/
+
+/*@font-face {*/
+    /*font-family: "AkzidenzGroteskPro-Cn";*/
+    /*src: url("../media/fonts/AkzidenzGroteskPro-Cn.eot#");*/
+    /*src: local("AkzidenzGroteskPro-Cn"),*/
+    /*url("../media/fonts/AkzidenzGroteskPro-Cn.woff") format("woff"),*/
+    /*url("../media/fonts/AkzidenzGroteskPro-Cn.ttf") format("truetype");*/
+    /*font-weight:400;*/
+/*}*/
+
+
+
+    /*Example-2*/
+
+/*@font-face {*/
+    /*font-family: 'MyWebFont';*/
+    /*src: url('webfont.eot'); !* IE9 Compat Modes *!*/
+    /*src: url('webfont.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!*/
+    /*url('webfont.woff2') format('woff2'), !* Super Modern Browsers *!*/
+    /*url('webfont.woff') format('woff'), !* Pretty Modern Browsers *!*/
+    /*url('webfont.ttf')  format('truetype'), !* Safari, Android, iOS *!*/
+    /*url('webfont.svg#svgFontName') format('svg'); !* Legacy iOS *!*/
+/*}*/
