@@ -25,7 +25,7 @@ aside {
     height: 100%;
     color: white;
     z-index: 999;
-    padding: 50px 20px;
+    padding: 3.125rem 1.25rem;
     transform: translate3d(100%, 0, 0);
     background: #2d353c;
     transition: .5s;
@@ -43,12 +43,12 @@ aside .toggle {
     position: absolute;
     top: 50%;
     right: 100%;
-    padding: 10px 25px;
+    padding: 0.625rem 1.563rem;
     transform: rotate(270deg) translate(50%, 147%);
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 0.625rem;
+    border-top-left-radius: 0.625rem;
     background: #94c750;
-    font-size: 19px;
+    font-size: 1.188rem;
     font-family: Open Sans;
     cursor: pointer;
 }
@@ -63,24 +63,24 @@ aside .blue-link:hover {
 }
 
 aside .toggle p {
-    padding-right: 15px;
+    padding-right: 0.9375rem;
 }
 
 aside .icon {
     transform: rotate(-270deg);
-    width: 23px;
-    height: 21px;
+    width:  1.438rem;
+    height: 1.313rem;
     background: url(../images/education.png) 0 0 / contain no-repeat;
 }
 
 aside > p {
-    font: 700 14px / 1.4 Open Sans;
-    margin-bottom: 20px;
+    font: 700 0.875rem / 1.4 Open Sans;
+    margin-bottom:  1.25rem;
 }
 
 aside > p:last-of-type {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .left-socials {
@@ -139,19 +139,19 @@ header {
 
 .header-bg .main-title {
     color: #f1f1f1;
-    font: 500 34px / 1 Open Sans;
+    font: 500 2.125rem / 1 Open Sans;
 }
 
 .header-nav-wrap {
-    min-height: 44px;
+    min-height: 2.75rem;
     display: flex;
     background: #fff;
     align-items: center;
 }
 
 .mvr-coin-logo {
-    width: 175px;
-    height: 44px;
+    width:  10.94rem;
+    height: 2.75rem;
     background: url(../images/mvr-header-logo.png) no-repeat;
     background-size: contain;
 }
@@ -163,13 +163,13 @@ header {
 }
 
 .top-nav ul {
-    margin-left: 31px;
+    margin-left:  1.938rem;
     font-size: 0.9rem;
 }
 
 .top-nav > ul > li {
     display: inline-block;
-    margin-right: 31px;
+    margin-right:  1.938rem;
     vertical-align: middle;
 }
 
@@ -203,14 +203,14 @@ header {
 }
 
 .header-login-wrap {
-    min-height: 44px;
+    min-height: 2.75rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .telegram-wrap {
-    min-height: 44px;
+    min-height: 2.75rem;
     display: flex;
     background: #fff;
     align-items: center;
@@ -220,9 +220,9 @@ header {
 }
 
 .telegram-icon {
-    width: 27px;
-    height: 27px;
-    margin-right: 8px;
+    width: 1.688rem;
+    height: 1.688rem;
+    margin-right: .5rem;
     background: url(../images/telegram-icon.png) no-repeat;
     background-size: contain;
 }
@@ -234,20 +234,20 @@ header {
 }
 
 .registration-wrap {
-    min-height: 44px;
+    min-height: 2.75rem;
     display: flex;
     background: #fff;
     align-items: center;
     justify-content: space-between;
     color: black;
     font: normal 1rem "Open Sans";
-    margin-left: 39px;
+    margin-left: 2.438rem;
 }
 
 .registr-icon {
-    width: 27px;
-    height: 27px;
-    margin-right: 7px;
+    width: 1.688rem;
+    height: 1.688rem;
+    margin-right: 0.4375rem;
     background: url(../images/contacts-icon.png) no-repeat;
     background-size: contain;
 }
@@ -264,16 +264,16 @@ header {
 
 .sep-border {
     border-left: 2px solid #7f7f7f;
-    height: 18px;
+    height: 1.125rem;
     width: 1px;
-    margin-left: 9px;
+    margin-left:  0.5625rem;
 }
 
 .sign-link {
     text-transform: uppercase;
     font: bold 1rem "Open Sans";
     color: black;
-    margin-left: 8px;
+    margin-left:  0.5625rem;
 }
 
 .sign-link:hover {
@@ -282,23 +282,23 @@ header {
 
 
 .lang-wrap {
-    min-height: 44px;
+    min-height: 2.75rem;
     display: flex;
     align-items: center;
-    margin-left: 45px;
+    margin-left: 2.75rem;
 }
 
 .flag-icon {
-    width: 25px;
-    height: 25px;
-    margin-right: 6px;
+    width: 1.563rem;
+    height: 1.563rem;
+    margin-right: 0.375rem;
     background: url(../images/lang-icon-logo.png) no-repeat;
     background-size: contain;
 }
 
 .open-lang {
-    width: 10px;
-    height: 7px;
+    width: 0.625rem;
+    height: 0.4375rem;
     background: url(../images/open-lang.png) no-repeat;
     background-size: contain;
 }
@@ -309,7 +309,7 @@ header {
     padding: 0.6rem 2.1rem;
     border-radius: 1.5rem;
     color: #46b2f4;
-    margin-left: 50px;
+    margin-left: 3.125rem;
     font: normal 1rem "Open Sans";
     transition: .3s;
 }
@@ -484,7 +484,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1175px;
+    max-width:  73.44rem;
     /*background: rgba(87, 255, 25, 0.23);*/
     margin: 2.7rem auto 0 auto;
 }
@@ -543,20 +543,20 @@ header {
 }
 
 .calculator > div {
-    max-width: 810px;
+    max-width: 50.63rem;
     margin: 0 auto;
     font: 400 0.99em/1.5 "Open Sans";
 }
 
 .calculator-slider {
-    max-width: 1086px;
+    max-width: 67.88rem;
     margin: 3.85rem auto 0 auto;
 }
 
 .invest-wrap {
     min-height: 12rem;
     margin: 2.6rem auto 0 auto;
-    max-width: 1000px;
+    max-width:  62.5rem;
     display: flex;
     justify-content: space-around;
     font-family: "Open Sans";
@@ -576,7 +576,7 @@ header {
 }
 
 .invest-content1 {
-    height: 85px;
+    height: 5.313rem;
     margin-bottom: 1.4rem;
 }
 
@@ -595,7 +595,7 @@ header {
     font: bold 0.88em/1.5 "Open Sans";
     text-align: center;
     margin-top: 1.2rem;
-    line-height: 22px;
+    line-height: 1.375rem;
     width: 100%;
 }
 
@@ -626,11 +626,11 @@ header {
 
 #chartdiv {
     width: 100%;
-    height: 400px;
+    height:  25rem;
     overflow: hidden;
     text-align: left;
     margin: 3.5rem auto 0 auto;
-    max-width: 1078px;
+    max-width: 67.38rem;
 }
 
 .buy-mvr-button {
@@ -660,8 +660,8 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 700px;
-    margin-top: 85px;
+    height: 43.75rem;
+    margin-top: 5.313rem;
     background: #f1f1f1 url(../images/header-bg.png) no-repeat;
     background-size: 44% 100%;
 }
@@ -670,13 +670,13 @@ header {
     margin-left: 41%;
 }
 .cripto{
-    padding: 12px;
+    padding: 0.75rem;
     background: url(../images/before.png) no-repeat;
     background-position: left center;
     color: #fff;
-    font-size: 34px;
-    margin-left: -140px;
-    padding-left: 140px;
+    font-size: 2.125rem;
+    margin-left: -8.75rem;
+    padding-left: 8.75rem;
     margin-top: 2%;
 }
 .header-bg .main-title {
@@ -684,7 +684,7 @@ header {
     z-index: 100;
     text-transform: uppercase;
     color: #f1f1f1;
-    font: 500 34px / 1 Open Sans;
+    font: 500 2.125rem / 1 Open Sans;
 }
 .header-bg a:hover{
     text-decoration: underline;
@@ -693,7 +693,7 @@ header {
 .caption {
     margin-top: 2%;
     letter-spacing: -.3px;
-    font: 500 33px / 1 "Open Sans";
+    font: 500 2.063rem / 1 "Open Sans";
 }
 
 .icons-block {
@@ -703,8 +703,8 @@ header {
 
 .icons-block .title {
     color: #1da1f2;
-    font: 500 14px/1.3 "Open Sans";
-    padding: 19px 48px 0 0;
+    font: 500 0.875rem/1.3 "Open Sans";
+    padding: 1.188rem 3rem 0 0;
 }
 
 .icon-wrap {
@@ -712,7 +712,7 @@ header {
     flex-direction: column;
     align-content: space-between;
     justify-content: flex-end;
-    padding-right: 37px;
+    padding-right: 2.313rem;
 }
 .icon-wrap a{
     -webkit-filter: grayscale(100%);
@@ -735,24 +735,24 @@ header {
 }
 .icon-wrap img {
     margin: auto;
-    width: 33px;
+    width: 2.063rem;
 }
 
 .icon-wrap:nth-of-type(4) img {
-    width: 40px;
+    width: 2.5rem;
 }
 
 .icon-wrap p {
-    padding-top: 10px;
-    font: 500 14px / 1 "Open Sans";
+    padding-top: 0.625rem;
+    font: 500 0.875rem / 1 "Open Sans";
     color: #b0b0b0;
 }
 
 footer {
     position: relative;
     width: 100%;
-    height: 475px;
-    margin-top: 100px;
+    height: 29.69rem;
+    margin-top: 6.25rem;
     border-top: 1px solid transparent;
     background-color: #f1f1f1;
 }
@@ -761,18 +761,18 @@ footer:before {
     content: '';
     position: absolute;
     left: 50%;
-    top: -36px;
+    top: -2.25rem;
     transform: translateX(-50%);
-    width: 72px;
-    height: 72px;
+    width: 4.5rem;
+    height: 4.5rem;
     background: url(../images/mavro.png) 0 0 / contain no-repeat;
 }
 
 .footer-title {
-    margin: 91px 0 65px 0;
+    margin: 5.688rem 0 4.063rem 0;
     letter-spacing: -1px;
     text-align: center;
-    font: 500 42px / 1 "Open Sans";
+    font: 500 2.625rem / 1 "Open Sans";
     color: #1da1f2;
 }
 
@@ -781,7 +781,7 @@ footer:before {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    width: 700px;
+    width: 43.75rem;
 }
 
 .partners li {
@@ -796,12 +796,12 @@ footer:before {
 .bottom-menu {
     display: flex;
     justify-content: space-between;
-    width: 686px;
-    margin: 43px auto 32px auto;
+    width: 42.88rem;
+    margin: 2.688rem auto 2rem auto;
 }
 
 .bottom-menu li, .navigation-block li {
-    font: 400 16px / 1 Open Sans;
+    font: 400 1rem / 1 Open Sans;
     text-transform: uppercase;
     color: #666666;
 }
@@ -814,8 +814,8 @@ footer:before {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 595px;
-    padding: 17px 23px;
+    width: 37.19rem;
+    padding: 1.063rem 1.438rem;
     border: 2px solid #d2d2d2;
 }
 
@@ -824,8 +824,8 @@ footer:before {
 }
 
 .bottom-info {
-    padding-top: 15px;
-    padding-bottom: 4px;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.25rem;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -835,17 +835,17 @@ footer:before {
 }
 
 .bottom-info img {
-    margin-left: 497px;
-    margin-right: 4px;
+    margin-left: 31.06rem;
+    margin-right: 0.25rem;
 }
 
 .bottom-info p {
     color: #979797;
     letter-spacing: -.3px;
-    font: 400 14px/1 "Open Sans";
+    font: 400 0.875rem/1 "Open Sans";
 }
 
 .bottom-info .copy {
-    margin-right: 12px;
-    margin-left: 115px;
+    margin-right: 0.75rem;
+    margin-left: 7.188rem;
 }
