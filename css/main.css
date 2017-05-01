@@ -213,6 +213,9 @@ header{
 .mvr-list li p b {
 	text-transform: uppercase;
 }
+.mvr-list li p a:hover {
+	text-decoration: underline;
+}
 .mvr-list li:nth-of-type(2n) {
 	margin-bottom: 2.2rem;
 }
@@ -231,14 +234,20 @@ header{
 	font: italic 1.1rem "Open Sans";
 }
 .video-button {
-	background: url(../images/play-icon.png) no-repeat;
+	background: #fff url(../images/play-icon.png) no-repeat;
 	background-position: 0.5rem center;
-	border: 1px solid #6ba7f2;
+	border: 2px solid #6ba7f2;
 	font: normal 1.15rem "Open Sans";
 	color: #6ba7f2;
 	padding: 0.5rem 2rem 0.5rem 3.1rem;
 	border-radius: 1.25rem;
 	outline:none;
+	cursor: pointer;
+}
+.video-button:hover{
+	background: #6ba7f2 url(../images/play-icon-hover.png) no-repeat;
+	background-position: 0.5rem center;
+	color: #fff;
 }
 
 /* ------------- End "About-mvr" section styles --------------- */
@@ -299,7 +308,7 @@ header{
 .registry {
 	background: transparent;
 	text-transform: uppercase;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	font: normal 0.95rem "Open Sans";
 	color: #fff;
 	padding: 0.65rem 1.7rem;
@@ -307,6 +316,12 @@ header{
 	outline: none;
 	margin: 4rem auto 0 auto;
 	display: block;
+	transition: .3s;
+	cursor: pointer;
+}
+.registry:hover {
+	color: #1da1f2;
+	background: #fff;
 }
 .video-bottom-blue {
 	background: #fff url(../images/border-blue-bottom.png) no-repeat;
@@ -338,6 +353,9 @@ header{
 	display: flex;
 	justify-content: space-around;
 	font-family: "Open Sans";
+}
+.invest-wrap .blue-link:hover{
+	text-decoration: underline;
 }
 .invest-wrap.note{
 	margin-top: 0;
@@ -397,7 +415,7 @@ header{
 }
 .buy-mvr-button {
 	background: #1da1f2;
-	border:none;
+	border: 1px solid #1da1f2;;
 	text-transform: uppercase;
 	font: normal 0.95rem "Open Sans";
 	color: #fff;
@@ -406,6 +424,12 @@ header{
 	outline: none;
 	margin: 5.8rem auto 0 auto;
 	display: block;
+	transition: .3s;
+	cursor: pointer;
+}
+.buy-mvr-button:hover{
+	color: #1da1f2;
+	background: #fff;
 }
 /* ------------- End "Chart" section styles --------------- */
 
@@ -486,8 +510,16 @@ footer:before{
 .partners{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin: auto;
 	width: 700px;
+}
+.partners li{
+	transition: all .3s;
+	opacity: .5;
+}
+.partners li:hover{
+	opacity: 1;
 }
 .bottom-menu{
 	display: flex;
@@ -496,9 +528,12 @@ footer:before{
 	margin: 43px auto 32px auto;
 }
 .bottom-menu li, .navigation-block li{
-	font: 400 16px / 1 '"Open Sans"';
+	font: 400 16px / 1 Open Sans;
 	text-transform: uppercase;
 	color: #666666;
+}
+.bottom-menu li:hover, .navigation-block li:hover{
+	text-decoration: underline;
 }
 .navigation-block{
 	display: flex;
