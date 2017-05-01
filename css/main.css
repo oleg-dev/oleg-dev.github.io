@@ -693,7 +693,8 @@ header {
 .caption {
     margin-top: 2%;
     letter-spacing: -.3px;
-    font: 500 2.063rem / 1 "Open Sans";
+    color: #5d5d5d;
+    font: 500 2.063rem / 1 Akzidenz;
 }
 
 .icons-block {
