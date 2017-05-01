@@ -2,3 +2,8 @@
 	font-family: "OpenSans-Light";
 	src: url("../fonts/OpenSans-Light.ttf");
 }
+@font-face {
+	font-family: "Akzidenz";
+	src: url("../fonts/AkzidenzGroteskPro-LightCn.otf");
+}
+
