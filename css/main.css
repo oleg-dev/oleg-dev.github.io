@@ -781,7 +781,7 @@ footer:before {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    width: 43.75rem;
+    max-width: 43.75rem;
 }
 
 .partners li {
@@ -796,7 +796,7 @@ footer:before {
 .bottom-menu {
     display: flex;
     justify-content: space-between;
-    width: 42.88rem;
+    max-width: 42.88rem;
     margin: 2.688rem auto 2rem auto;
 }
 
@@ -814,7 +814,7 @@ footer:before {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 37.19rem;
+    max-width: 37.19rem;
     padding: 1.063rem 1.438rem;
     border: 2px solid #d2d2d2;
 }
@@ -831,11 +831,11 @@ footer:before {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: white;
 }
 
 .bottom-info img {
-    margin-left: 31.06rem;
     margin-right: 0.25rem;
 }
 
