@@ -41,69 +41,81 @@
 <script>
     $('.toggle').click(function() {
         $('aside').toggleClass('active')
-    })
+    });
 </script>
 
 
 <header>
-    <div class="header-nav-wrap">
-        <a href="" class="mvr-coin-logo"></a>
-        <nav class="top-nav">
-            <ul id="menu">
-                <li>
-                    <a href="https://mavro.org/reviews">Отзывы</a>
+    <a href="#" class="mvr-coin-logo none"></a>
+    <div class="mobile">
+        <div class="header-nav-wrap">
+            <a href="#" class="mvr-coin-logo"></a>
+            <nav class="top-nav">
+                <ul id="menu">
+                    <li>
+                        <a href="https://mavro.org/reviews">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="https://mavro.org/page/marketing">Маркетинг</a>
+                    </li>
+                    <li>
+                        <a href="https://mavro.org/news">Новости</a>
+                    </li>
+                    <li>
+                        <a href="https://mavro.org/forum">Форум</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-login-wrap">
+
+            <div class="telegram-wrap">
+                <div class="telegram-icon"></div>
+                <p>Telegram <a href="#" class="telegram-link">Перейти в чат</a></p>
+            </div>
+
+            <div class="registration-wrap">
+                <div class="registr-icon"></div>
+                <a href="#" class="register-link">Регистрация</a>
+                <div class="sep-border"></div>
+                <a href="#" class="sign-link">Вход</a>
+            </div>
+
+            <div class="lang-wrap">
+                <div class="flag-icon"></div>
+                <div class="open-lang"></div>
+            </div>
+
+            <ul class="select-lang-list">
+                <li class="lang-item">
+                    <a href="#">English <img src="images/lang-icon-logo.png" alt="eng"></a>
                 </li>
-                <li>
-                    <a href="https://mavro.org/page/marketing">Маркетинг</a>
+                <li class="lang-item">
+                    <a href="#">Русский <img src="images/rus.jpg" alt="rus"></a>
                 </li>
-                <li>
-                    <a href="https://mavro.org/news">Новости</a>
-                </li>
-                <li>
-                    <a href="https://mavro.org/forum">Форум</a>
+                <li class="lang-item">
+                    <a href="#">China <img src="images/china.jpg" alt="china"></a>
                 </li>
             </ul>
-        </nav>
+
+            <div class="buy-wrap">
+                <p class="button-text">Купить MVR Coin</p>
+            </div>
+
+        </div>
     </div>
-
-    <div class="header-login-wrap">
-
-        <div class="telegram-wrap">
-            <div class="telegram-icon"></div>
-            <p>Telegram <a href="#" class="telegram-link">Перейти в чат</a></p>
-        </div>
-
-        <div class="registration-wrap">
-            <div class="registr-icon"></div>
-            <a href="#" class="register-link">Регистрация</a>
-            <div class="sep-border"></div>
-            <a href="#" class="sign-link">Вход</a>
-        </div>
-
-        <div class="lang-wrap">
-            <div class="flag-icon"></div>
-            <div class="open-lang"></div>
-        </div>
-
-        <ul class="select-lang-list">
-            <li class="lang-item">
-                <a href="#">English <img src="images/lang-icon-logo.png" alt="eng"></a>
-            </li>
-            <li class="lang-item">
-                <a href="#">Русский <img src="images/rus.jpg" alt="rus"></a>
-            </li>
-            <li class="lang-item">
-                <a href="#">China <img src="images/china.jpg" alt="china"></a>
-            </li>
-        </ul>
-
-        <div class="buy-wrap">
-            <p class="button-text">Купить MVR Coin</p>
-        </div>
-
+    <div class="sandwich">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 </header>
-
+<script>
+    $('.sandwich').click(function() {
+        $('.mobile').toggleClass('active')
+    })
+</script>
 <div class="header-bg">
     <div class="path">
         <img src="images/mavro-big-logo.png" alt="logo" class="logo">

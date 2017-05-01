@@ -133,10 +133,11 @@ header {
     background: #fff;
     z-index: 1;
     padding: 1.2% 2.7% 0.8%;
+}
+.mobile{
     display: flex;
     justify-content: space-between;
 }
-
 .header-bg .main-title {
     color: #f1f1f1;
     font: 500 2.125rem / 1 Open Sans;
@@ -414,7 +415,7 @@ header {
 }
 
 .descr-list {
-    font: normal 1.3em "Open Sans";
+    font: normal 1.3rem "Open Sans";
     margin: 2.4rem 0 1.5rem 0;
     text-transform: uppercase;
 }
@@ -427,7 +428,7 @@ header {
     padding-left: 1.1em;
     color: #1da1f2;
     font-family: "Open Sans";
-    font-size: 1.15em;
+    font-size: 1.15rem;
     margin: 0 0 0.5rem 1.6rem;
 }
 
@@ -640,7 +641,7 @@ header {
 }
 
 .balans-mavro p {
-    font: 400 1.16em/1.6 "Open Sans";
+    font: 400 1.16rem/1.6 "Open Sans";
     text-align: center;
     margin: 4rem auto 0 auto;
 }
@@ -721,7 +722,7 @@ header {
 }
 .header-bg .main-title {
     position: relative;
-    z-index: 100;
+    z-index: 0;
     text-transform: uppercase;
     color: #f1f1f1;
     font: 500 2.125rem / 1 Open Sans;
@@ -890,12 +891,36 @@ footer:before {
     margin-right: 0.75rem;
     margin-left: 7.188rem;
 }
-
+.none{
+    display: none;
+}
+.sandwich{
+    display: none;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 7px 4px;
+    cursor: pointer;
+}
+.sandwich div{
+    width: 90%;
+    border-top:2px solid grey;
+}
 @media screen and (max-width: 1500px){
     body{
         font-size: 15px;
     }
-    header{
+    aside{
+        width: 32%;
+    }
+    .mobile{
         flex-direction: column;
     }
     .header-nav-wrap{
@@ -904,5 +929,235 @@ footer:before {
     }
     .heading-2-lvl{
         font-size: 2rem;
+    }
+}
+@media screen and (max-width: 1100px) {
+    body {
+        font-size: 14px;
+    }
+    aside{
+        width: 40%;
+    }
+    .path{
+        margin-top: 16%;
+    }
+    .heading-2-lvl{
+        font-size: 1.5rem;
+    }
+    .statistic-wrap{
+        flex-direction: column;
+    }
+    .icons-block{
+        margin-top: 17%;
+    }
+}
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 13px;
+    }
+    .left-socials{
+        display: none;
+    }
+    aside{
+        width: 60%;
+    }
+    .header-bg{
+        background: none;
+    }
+    .path{
+        margin-left: 0;
+        text-align: center;
+    }
+    .buy-wrap{
+        padding: 0.5rem 1rem;
+        margin-left: 2rem;
+    }
+    .icons-block{
+        margin-top: 10%;
+        justify-content: center;
+    }
+    .how-works-wrap{
+        max-width: 90%;
+        justify-content: center;
+    }
+    .how-works-wrap p{
+        padding-right: 10px;
+    }
+    .statistic-wrap{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .count{
+        font-size: 3rem;
+    }
+    .bottom-info{
+        padding: 0.7rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 800px) {
+    .path{
+        margin-top: 0;
+    }
+    .none{
+        display: block !important;
+    }
+    .top-nav ul{
+        margin-left: 0;
+        text-align: center;
+    }
+    .sandwich{
+        display: flex;
+    }
+    .header-bg{
+        height: 33rem;
+    }
+    .header-nav-wrap{
+        flex-direction: column;
+    }
+    .mvr-coin-logo{
+        display: none;
+    }
+    .header-login-wrap{
+        flex-direction: column;
+    }
+    .top-nav > ul > li{
+        display: block;
+        padding-top: 10px;
+        margin-right: 0;
+    }
+    .registration-wrap{
+        margin-left: 0;
+    }
+    .mobile{
+        display: none;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding-bottom: 20px;
+        z-index: 999;
+    }
+    .mobile.active{
+        display: block;
+    }
+    .lang-wrap{
+        margin-left: 0;
+    }
+    .buy-wrap{
+        margin-left: 0;
+    }
+    .about-mvr{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .mvr-description-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mvr-descr-list-wrap{
+        width: 100%;
+    }
+    .devices-image{
+        width: 60%;
+        height: 300px;
+    }
+    .heading-2-lvl{
+        text-align: center;
+    }
+    .mvr-video{
+        height: 100%;
+    }
+    .footer-title{
+        margin: 2.5rem auto 2rem auto;
+    }
+    .partners{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .partners li{
+        padding: 5px;
+    }
+    .bottom-menu{
+        margin: 1.5rem auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .bottom-menu li{
+        padding: 10px;
+    }
+    .bottom-info .copy{
+        margin-left: 1rem;
+    }
+    .devices-image{
+        height: 220px;
+    }
+}
+@media screen and (max-width: 600px) {
+    footer{
+        height: 48rem;
+    }
+    .bottom-menu{
+        flex-direction: column;
+    }
+    .navigation-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navigation-block li{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    body{
+        font-size: 9px;
+    }
+    aside{
+        display: none;
+    }
+    .header-bg .main-title{
+        font-size: 1.5rem;
+    }
+    footer{
+        height: 51rem;
+    }
+    .icons-block{
+        flex-wrap: wrap;
+    }
+    .icons-block div{
+        padding-right: 1.5rem;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navigation-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .path img{
+        width: 200px;
+    }
+    .heading-2-lvl.center{
+        max-width: 100%;
+    }
+    .video-note{
+        width: 90%;
+    }
+    .header-bg{
+        height: 29rem;
+    }
+    .invest p{
+        line-height: 1rem;
+    }
+    .bottom-info p{
+        font-size: 0.75rem;
+    }
+    footer{
+        height: 59rem;
     }
 }
