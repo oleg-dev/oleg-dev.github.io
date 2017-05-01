@@ -678,6 +678,7 @@ header {
     font-size: 34px;
     margin-left: -140px;
     padding-left: 140px;
+    margin-top: 2%;
 }
 .header-bg .main-title {
     position: relative;
@@ -711,17 +712,31 @@ header {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    justify-content: center;
+    justify-content: flex-end;
     padding-right: 37px;
 }
-
+.icon-wrap a{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    text-align: center;
+    transition: .2s;
+}
+.icon-wrap a:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.icon-wrap a:hover p{
+    color:#333;
+}
 .icon-wrap img {
     margin: auto;
     width: 33px;
-}
-
-.icon-wrap:nth-of-type(2) img {
-    width: 29px;
 }
 
 .icon-wrap:nth-of-type(4) img {
