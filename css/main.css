@@ -311,8 +311,7 @@ header {
     color: #46b2f4;
     margin-left: 50px;
     font: normal 1rem "Open Sans";
-    transition: width .4s ease-in-out;
-
+    transition: .3s;
 }
 
 .buy-wrap:hover {
