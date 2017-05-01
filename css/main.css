@@ -181,6 +181,25 @@ header {
 .top-nav > ul > li a {
     font-family: "Open Sans";
     color: #7f7f7f;
+    transition: width .4s ease-in-out;
+}
+.top-nav > ul > li a:hover,
+.top-nav > ul > li a:focus {
+    color:#000;
+    transition: width .4s ease-in-out;
+}
+.top-nav > ul > li a:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0;
+    background-color: #337ab7;
+
+    transition: width .4s ease-in-out;
+}
+.top-nav > ul > li a:focus:after,
+.top-nav > ul > li a:hover:after {
+    width: 100%;
 }
 
 .header-login-wrap {
@@ -239,6 +258,10 @@ header {
     color: #1da1f2;
 }
 
+.register-link:hover {
+    text-decoration: underline;
+}
+
 .sep-border {
     border-left: 2px solid #7f7f7f;
     height: 18px;
@@ -252,6 +275,11 @@ header {
     color: black;
     margin-left: 8px;
 }
+
+.sign-link:hover {
+    text-decoration: underline;
+}
+
 
 .lang-wrap {
     min-height: 44px;
@@ -277,11 +305,20 @@ header {
 
 .buy-wrap {
     border: 1px solid #46b2f4;
+    background:transparent;
     padding: 0.6rem 2.1rem;
     border-radius: 1.5rem;
     color: #46b2f4;
     margin-left: 50px;
     font: normal 1rem "Open Sans";
+    transition: width .4s ease-in-out;
+
+}
+
+.buy-wrap:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background: #46b2f4;
 }
 
 /* ------------- End header styles --------------- */
