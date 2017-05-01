@@ -41,7 +41,7 @@
 <script>
     $('.toggle').click(function() {
         $('aside').toggleClass('active')
-    });
+    })
 </script>
 
 
@@ -84,6 +84,18 @@
             <div class="flag-icon"></div>
             <div class="open-lang"></div>
         </div>
+
+        <ul class="select-lang-list">
+            <li class="lang-item">
+                <a href="#">English</a>
+            </li>
+            <li class="lang-item">
+                <a href="#">Русский</a>
+            </li>
+            <li class="lang-item">
+                <a href="#">China</a>
+            </li>
+        </ul>
 
         <div class="buy-wrap">
             <p class="button-text">Купить MVR Coin</p>
@@ -325,6 +337,14 @@
 <script src="scripts/lib/serial-amchart.js" type="text/javascript"></script>
 
 <script src="scripts/lib/ion.rangeSlider.min.js"></script>
+
+
+<script>
+	$('.lang-wrap').click(function() {
+		$('.select-lang-list').toggleClass('active');
+		$('.lang-wrap').toggleClass('active');
+	});
+</script>
 
 <script type="text/javascript">
 	if (typeof Number.prototype.format1 === 'undefined') {
