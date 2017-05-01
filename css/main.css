@@ -997,6 +997,9 @@ footer:before {
     }
 }
 @media screen and (max-width: 800px) {
+    .select-lang-list{
+        right: 0;
+    }
     .path{
         margin-top: 0;
     }
