@@ -1142,6 +1142,11 @@ footer:before {
         justify-content: center;
         align-items: center;
     }
+    .video-button{
+        padding-right: 1rem;
+        font-size: 1rem;
+        padding-left: 2.2rem;
+    }
     header{
         height: 60px;
         display: flex;
