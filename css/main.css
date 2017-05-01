@@ -888,3 +888,19 @@ footer:before {
     margin-right: 0.75rem;
     margin-left: 7.188rem;
 }
+
+@media screen and (max-width: 1500px){
+    body{
+        font-size: 15px;
+    }
+    header{
+        flex-direction: column;
+    }
+    .header-nav-wrap{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .heading-2-lvl{
+        font-size: 2rem;
+    }
+}
