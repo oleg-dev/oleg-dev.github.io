@@ -449,7 +449,6 @@ header {
     margin: 4.9rem auto 0 auto;
     max-width: 33%;
     display: flex;
-    /*background: rgba(87, 255, 25, 0.23);*/
     justify-content: space-between;
     align-items: center;
 }
@@ -523,7 +522,6 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     max-width:  73.44rem;
-    /*background: rgba(87, 255, 25, 0.23);*/
     margin: 2.7rem auto 0 auto;
 }
 
@@ -715,7 +713,6 @@ header {
     padding: 0.75rem;
     background: url(../images/before.png) no-repeat;
     background-position: left center;
-    /*background-color: white;*/
     color: #fff;
     font-size: 2.125rem;
     margin-left: -8.75rem;
@@ -738,7 +735,6 @@ header {
     letter-spacing: -.3px;
     color: #5d5d5d;
     font: 500 2.063rem / 1 Akzidenz;
-    /*background-color: white;*/
 }
 
 .icons-block {
@@ -1054,9 +1050,6 @@ footer:before {
     .icon-wrap {
         margin-bottom: 1rem;
     }
-    /*.none{*/
-        /*display: block !important;*/
-    /*}*/
     .top-nav ul{
         margin-left: 0;
         text-align: center;
