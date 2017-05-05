@@ -1105,7 +1105,7 @@ footer:before {
     }
     .sandwich{
         display: flex;
-        width: 70px;
+        width: 55px;
         height: 60px;
         border:none;
     }
@@ -1271,7 +1271,7 @@ footer:before {
         padding: 0;
         margin-bottom: 1em;
         font-size: 2em;
-        width: 90%;
+        width: 100%;
     }
     .about-mvr{
         padding-top: 0;
