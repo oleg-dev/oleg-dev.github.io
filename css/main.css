@@ -1211,7 +1211,7 @@ footer:before {
         margin-top: 8rem;
     }
     .icons-block div{
-        padding-right: 1.5rem;
+        padding-right: 0;
         padding-top: 10px;
     }
     .icons-block .title {
@@ -1223,6 +1223,21 @@ footer:before {
         margin-bottom: 1em;
         font-size: 2em;
         width: 90%;
+    }
+    .about-mvr{
+        padding-top: 0;
+        margin-top: -15px;
+    }
+    .devices-image{
+        width: 82%;
+    }
+    .how-works-wrap{
+        margin-top: 2rem;
+
+    }
+    .how-works-wrap p{
+        text-align: center;
+        margin-bottom: 10px;
     }
 
 }
