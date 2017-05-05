@@ -1302,9 +1302,13 @@ footer:before {
         padding-left: 2.35rem;
     }
     header{
-        height: 70px;
+        height: 75px;
         display: flex;
         align-items: center;
+        background: transparent;
+    }
+    header.active {
+        background: #fff;
     }
     .path>img{
         width: 200px;
