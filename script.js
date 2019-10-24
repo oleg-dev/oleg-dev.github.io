@@ -75,7 +75,7 @@ window.addEventListener('load', function () {
         form.classList.add('hidden');
         preloader.classList.remove('hidden');
 
-        xhr.open("POST", "https://jb-activity-custom.herokuapp.com/fireevent");
+        xhr.open("POST", "https://webinar-custom-activity.herokuapp.com/fireevent");
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.setRequestHeader("cache-control", "no-cache");
         xhr.setRequestHeader("Access-Control-Max-Age", "3600");
