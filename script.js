@@ -89,7 +89,7 @@ window.addEventListener('load', function () {
             xhr.removeEventListener("readystatechange",handleResponse);
             xhr.abort();
             xhr.dispatchEvent(eventTimeout);
-        },10000)
+        },20000)
 
     }
 
