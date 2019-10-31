@@ -37,6 +37,27 @@ window.addEventListener('load', function () {
     emailConfirmation.addEventListener('change', checkConfirmation);
     submitButton.addEventListener('click', submitForm);
 
+    healthCheckServer();
+
+    function healthCheckServer() {
+        var xhrHealthCheck = new XMLHttpRequest();
+        xhrHealthCheck.withCredentials = false;
+        xhrHealthCheck.open("POST", "https://webinar-custom-activity.herokuapp.com/healthcheck");
+        xhrHealthCheck.setRequestHeader("Content-Type", "application/json");
+        xhrHealthCheck.setRequestHeader("cache-control", "no-cache");
+        xhrHealthCheck.setRequestHeader("Access-Control-Max-Age", "3600");
+        xhrHealthCheck.setRequestHeader("Accept", "*/*");
+        xhrHealthCheck.setRequestHeader("Access-Control-Allow-Origin", "gzip, deflate");
+        xhrHealthCheck.send();
+        xhrHealthCheck.addEventListener("readystatechange", handleHealthResponse);
+
+        function handleHealthResponse() {
+            if (this.readyState === 4) {
+                console.log(JSON.parse(this.responseText).uptime);
+            }
+        }
+    }
+
     var eventTimeout = new Event("timeout", {
         cancelable: true
     });
