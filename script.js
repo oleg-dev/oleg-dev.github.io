@@ -49,13 +49,6 @@ window.addEventListener('load', function () {
         xhrHealthCheck.setRequestHeader("Accept", "*/*");
         xhrHealthCheck.setRequestHeader("Access-Control-Allow-Origin", "gzip, deflate");
         xhrHealthCheck.send();
-        xhrHealthCheck.addEventListener("readystatechange", handleHealthResponse);
-
-        function handleHealthResponse() {
-            if (this.readyState === 4) {
-                console.log(JSON.parse(this.responseText).uptime);
-            }
-        }
     }
 
     var eventTimeout = new Event("timeout", {
