@@ -6,10 +6,10 @@ http.createServer(function(request, response) {
   var filePath = '.' + request.url;
   // console.log(filePath);
   if (filePath == './')
-    filePath = './index.html';
+    filePath = './index- backup1.html';
   var extname = path.extname(filePath);
      if (extname == '')
-    filePath = './index.html';
+    filePath = './index- backup1.html';
   // console.log(extname);
   var contentType = 'text/html';
   switch (extname) {
