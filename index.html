@@ -5,30 +5,38 @@
 <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
 </head>
 
-<br/><hr/><br/><br/>
-
-<!-- <h2>Example of shared post from the wall</h2>
-<div id="vk_post_1_45616">
-    <p>block for post creation</p>
-    <button>Button 1</button>
-</div>
-<script type="text/javascript">
-  (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://vk.com/js/api/openapi.js?169"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));
-  (function() {
-    window.VK && VK.Widgets && VK.Widgets.Post && VK.Widgets.Post("vk_post_1_45616", 1, 45616, 'ZMk4b98xpQZMJJRXVsL1ig', {width: 500}) || setTimeout(arguments.callee, 50);  }());
-</script> -->
-
-<br/><br/><hr/><br/><br/>
-
-<h2>Example of post sharing to the wall</h2>
-<div id="vk_share_button">
-</div>
-
-
-<script type="text/javascript">
-    document.getElementById('vk_share_button').innerHTML = VK.Share.button('http://oleg-dev.github.io', {type: 'round_nocount', text: 'Save'}); 
-</script>
-
 <body>
+
+    <br/><hr/><br/><br/>
+
+    <!-- <h2>Example of shared post from the wall</h2>
+    <div id="vk_post_1_45616">
+        <p>block for post creation</p>
+        <button>Button 1</button>
+    </div>
+    <script type="text/javascript">
+      (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://vk.com/js/api/openapi.js?169"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));
+      (function() {
+        window.VK && VK.Widgets && VK.Widgets.Post && VK.Widgets.Post("vk_post_1_45616", 1, 45616, 'ZMk4b98xpQZMJJRXVsL1ig', {width: 500}) || setTimeout(arguments.callee, 50);  }());
+    </script> -->
+
+    <br/><br/><hr/><br/><br/>
+
+    <h2>Example of post sharing to the wall</h2>
+    <div id="vk_share_button_1">
+        Luzer - level
+    </div>
+    <div id="vk_share_button_2">
+        Shalnaya_imperatritsa - level
+    </div>
+
+
+    <script type="text/javascript">
+        document.getElementById('vk_share_button_1').innerHTML = VK.Share.button('http://oleg-dev.github.io/result1', {type: 'round_nocount', text: 'Luzer - level'});
+
+        document.getElementById('vk_share_button_2').innerHTML = VK.Share.button('http://oleg-dev.github.io/result2', {type: 'round_nocount', text: 'Shalnaya_imperatritsa - level'});
+    </script>
+
 </body>
+
 </html>
