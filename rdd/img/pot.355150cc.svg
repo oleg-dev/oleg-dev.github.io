@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="143.051" viewBox="0 0 204 143.051">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cbae99"/>
+      <stop offset="1" stop-color="#660d41"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_13724" data-name="Group 13724" transform="translate(-47 -274)">
+    <ellipse id="Ellipse_194" data-name="Ellipse 194" cx="101.986" cy="7.025" rx="101.986" ry="7.025" transform="translate(47 403)" fill="#c5d4f6"/>
+    <g id="pot" transform="translate(47 274)">
+      <path id="Path_7" data-name="Path 7" d="M1883.921,790.9s-.339,6.26-1.634,16.687c-.141,1.171-.3,2.377-.461,3.654-3.321,24.526-11.506,67.475-31.073,107.641l-104.478-.425-22.922-.089s-19.987-41.968-24.717-111.047c-.075-1.1.018-2.216.036-3.334q.107-8.433.817-17.326S1795.362,780.581,1883.921,790.9Z" transform="translate(-1688.781 -782.881)" fill="#e27d39" fill-rule="evenodd"/>
+      <path id="Path_8" data-name="Path 8" d="M1894.888,788.382l-5.274,20.376-5.681,2.909h-.018c-38.833-5.8-107.443-7.572-107.514-7.554-29.476,0-52.842,1.56-65.431,2.642-.285.018-2.007.177-2.54.23-3.409.3-5.753.55-6.889.674-.178.018-.319.036-.444.053s-.23.018-.355.036l-5.362-2.341-4.492-17.025s46.432-5.074,99.133-5.074C1855.965,783.308,1894.888,788.382,1894.888,788.382Z" transform="translate(-1690.888 -783.308)" fill="#ff8e06" fill-rule="evenodd"/>
+      <path id="Path_9" data-name="Path 9" d="M1888.651,804.316l-5.681,2.909c-3.321,24.526-11.506,67.475-31.073,107.641l-104.478-.425c19.408-1.88,47.906-9.239,72.48-33.782,42.012-41.94,42.224-67.866,42.224-67.866l-86.489-7.192s-75.34-2.349-75.5-2.332c-.123.018-5.717-2.3-5.717-2.3s97.507-4.216,189.014,2.606C1885.165,803.7,1886.893,804.068,1888.651,804.316Z" transform="translate(-1689.924 -778.866)" fill-rule="evenodd" opacity="0.5" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <path id="Path_10" data-name="Path 10" d="M1690.888,788.382h204S1818.157,776.965,1690.888,788.382Z" transform="translate(-1690.888 -783.308)" fill="#4d2c59" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

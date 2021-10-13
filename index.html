@@ -42,7 +42,11 @@
 
 
     <script type="text/javascript">
-        document.getElementById('vk_share_button_1').innerHTML = VK.Share.button('http://oleg-dev.github.io/result1', {type: 'round_nocount', text: 'Luzer - level'});
+        document.getElementById('vk_share_button_1').innerHTML = VK.Share.button({
+            url: 'http://oleg-dev.github.io/result1',
+            title: 'Мой уровень - 356 баллов',
+            image: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/meadow-in-rocky-mountain-national-park-royalty-free-image-1592402262.jpg?crop=1.00xw:0.752xh;0,0&resize=980:*'
+        }, {type: 'custom', text: '<span class=\'social_label\'>вКонтакте</span>'});
 
         document.getElementById('vk_share_button_2').innerHTML = VK.Share.button('http://oleg-dev.github.io/result2', {type: 'round_nocount', text: 'Shalnaya_imperatritsa - level'});
     </script>
